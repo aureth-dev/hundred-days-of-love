@@ -363,7 +363,7 @@ h1.scale1 {
   position: fixed;
   bottom: 12px;
   right: 18px;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   letter-spacing: 0.3px;
   color: rgba(245, 215, 138, 0.6);
   z-index: 40;
