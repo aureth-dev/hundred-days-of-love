@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Happy 100 Days celebration milestone page." />
+  <meta name="theme-color" content="#090a0f" />
+  <title>Happy 100 Days, My Love ❤️</title>
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <audio id="bgMusic" loop preload="none">
+    <source src="assets/bg-music.mp3" type="audio/mp3">
+  </audio>
+
+  <div id="rising-hearts" aria-hidden="true"></div>
+  <div class="hearts-container" id="hearts" aria-hidden="true"></div>
+  
+  <div class="overlay" id="overlay">
+    <div class="loading-message" id="loadingMsg">Hey Palak... ✨<br>Guess what? It's our little milestone today. ❤️</div>
+    <div class="blocklove" id="intro">
+      <button class="lovein" id="loveBtn" aria-label="Unwrap celebration">💖</button>
+      <div class="overlay-text">Tap to unwrap</div>
+    </div>
+  </div>
+
+  <main class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide">
+        <div class="stiker" id="stiker1">
+          <img src="assets/besito-catlove.gif" alt="Cute Cat Love" width="130" height="130" loading="eager" decoding="async"/>
+        </div>
+        <h1 id="teks1">✨ Happy 100 Days, My Prettiest Girl! ✨<br><span class="subtitle">100 days of you, me, countless smiles, silly moments, and a whole lot of love. ❤️</span></h1>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="stiker" id="stiker2">
+          <img src="assets/bubu-dudu.gif" alt="Sending Love" width="130" height="130" loading="lazy" decoding="async"/>
+        </div>
+        <div class="typing-container">
+          <div id="scroll-container" role="region" aria-label="Milestone message">
+            <span id="typing-text"></span><span class="cursor" id="cursor" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="coupon-card" id="couponCard">
+          <div class="coupon-tag">100 DAYS SPECIAL</div>
+          <h2>Official Love Coupon 🎟️</h2>
+          <p class="coupon-desc">Valid for 1 year from the date of issue. One-time use only.</p>
+          <div class="coupon-perks">
+            <span>✨ 1x Recording of Me Singing Just for You 🎶❤️</span>
+            <span>✨ 1x Sweet Video Call — Just You & Me 🥹❤️</span>
+            <span>✨ 1x A Special Gift Hamper, Handpicked for My Girl 🎁</span>
+          </div>
+          <button class="claim-btn" id="claimBtn">Redeem Coupon 💖</button>
+          <div class="claimed-text" id="claimedText">✅ Coupon Redeemed! You'll receive your rewards very shortly... 👀❤️</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev custom-nav" aria-label="Previous slide"></div>
+    <div class="swiper-button-next custom-nav" aria-label="Next slide"></div>
+  </main>
+
+  <footer class="creator-tag" aria-hidden="true">
+    Made with ❤️ by Khushal
+  </footer>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="script.js"></script>
+</body>
+</html>
